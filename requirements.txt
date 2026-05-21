@@ -1,4 +1,5 @@
-Requirement already satisfied: django-cors-headers in ./venv/lib/python3.13/site-packages (4.9.0)
-Requirement already satisfied: asgiref>=3.6 in ./venv/lib/python3.13/site-packages (from django-cors-headers) (3.10.0)
-Requirement already satisfied: django>=4.2 in ./venv/lib/python3.13/site-packages (from django-cors-headers) (5.2.8)
-Requirement already satisfied: sqlparse>=0.3.1 in ./venv/lib/python3.13/site-packages (from django>=4.2->django-cors-headers) (0.5.3)
+asgiref==3.11.1
+Django==6.0.4
+django-cors-headers==4.9.0
+djangorestframework==3.17.1
+sqlparse==0.5.5
